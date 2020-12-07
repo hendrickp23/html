@@ -1,0 +1,179 @@
+body {
+	background:rgb(134, 132, 132);
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+header {
+	background-image: url(images/420.jpg);
+	background-size: 100%;
+	background-position: center;
+	height: 100px;
+	padding: 20px;
+	text-align: center;
+}
+
+header a {
+	color: white;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+header .logo a {
+	background-image: url(images/ehlogo.jpg);
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0%;
+	display: inline-block;
+	border-radius: 50%;
+	position: relative;
+	height: 60px;
+	width: 60px;
+	top: -20px;
+	text-indent: -9999999px;
+
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 30px 20px 0 0;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.div {
+	background: rgb(255, 255, 255);
+	margin: auto;
+	width: 100px;
+}
+
+.home {
+	background: white;
+	color: black;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+section {
+	background: white;
+	color: rgb(0, 0, 0);
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.about figure {
+	margin: center;
+	text-align: right;
+	width: 200px;
+}
+
+.about div img {
+	border: 1px white;
+	border-radius: 20px;
+	box-shadow: rgb(107, 105, 105) 0 0 10px;
+	width: 500px;
+	margin: 30px 60px 30px 30px;
+}
+
+.about div h1 {
+	text-align: center;
+}
+
+.about div p {
+	width: 750px;
+	text-align: left;
+}
+
+.info  {
+	width: 200px;
+	margin: 30px 70px 30px 200px;
+	text-align: left;
+	position: relative;
+	align-self: flex-start;
+
+}
+
+.contact {
+	width: auto;
+	
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+ 
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+
+.container div {
+  width: 50%;
+  padding: 30px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #34aad8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #135772;
+}
+
+.container {
+  border-radius: 12px;
+  background-color: #f2f2f2;
+  margin: 25px;
+  padding: 20px;
+  width: 600px;
+}
+
+footer {
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-size: 12px;
+	clear: both;
+	padding: 5px 100px;
+	text-align: center;
+}
