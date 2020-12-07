@@ -78,23 +78,21 @@ section {
 	padding: 20px;
 	display: flex;
 	flex-direction: row;
-	height: 100%;
+	height: 80%;
 	width: 100%;
 	position: relative;
 }
 
-.about figure {
-	margin: center;
-	text-align: right;
-	width: 200px;
+.about {
+	width: auto;
 }
 
 .about div img {
 	border: 1px white;
 	border-radius: 20px;
 	box-shadow: rgb(107, 105, 105) 0 0 10px;
-	width: 500px;
-	margin: 30px 60px 30px 30px;
+	width: 400px;
+	margin: 30px 30px 30px 30px;
 }
 
 .about div h1 {
@@ -102,17 +100,21 @@ section {
 }
 
 .about div p {
-	width: 750px;
+	width: 200px;
 	text-align: left;
 }
 
 .info  {
-	width: 200px;
-	margin: 30px 70px 30px 200px;
+	width: 400px;
+	margin: 14px 0px 30px calc((100% - 980px) * 0.5);
 	text-align: left;
 	position: relative;
 	align-self: flex-start;
 
+}
+
+.instatext {
+	color: rgb(214, 211, 211);
 }
 
 .contact {
@@ -120,54 +122,64 @@ section {
 	
 }
 
-input[type=text], select, textarea {
-	width: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical;
-  }
- 
-  .container {
-	border-radius: 5px;
-	background-color: #f2f2f2;
-	padding: 20px;
-  }
-
-.container div {
-  width: 50%;
-  padding: 30px; 
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #34aad8;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #135772;
-}
-
 .container {
-  border-radius: 12px;
-  background-color: #f2f2f2;
-  margin: 25px;
-  padding: 20px;
-  width: 600px;
+	width: 500px;
+	background-color: rgb(240, 236, 236);
+	border-radius: 5px;
+	border: 1px white;
+	box-shadow: rgb(107, 105, 105) 0 0 10px;
+	margin: 20px;
+	padding: 20px 0px 30px 30px;
 }
+
+.form {
+	margin: 10px 0px 10px 10px;
+}
+
+.formlabel {
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	display: block;
+	margin-bottom: 5px;
+	opacity: 1;
+}
+
+.formcontrol {
+	border-radius: 5px;
+	box-shadow: none;
+	width: 90%;
+	border-style: none;
+	padding: 8px 0px 8px 5px;
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+}
+
+.formcontrol::placeholder {
+	color: rgb(194, 194, 194);
+}
+
+.formcontrol:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+textarea {
+	resize: none;
+}
+
+.btn {
+	background-color: rgb(74, 230, 230);
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	margin-left: 15px;
+}
+
+.btn:hover {
+	background-color: darkcyan;
+}
+
 
 footer {
 	background: rgb(255, 255, 255);

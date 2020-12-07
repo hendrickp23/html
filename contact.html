@@ -26,34 +26,40 @@
             <P>Email:
             <br>Phone:
             <br>Long Island, NY
-            <p><a href="https://www.instagram.com/em.broid.her/"><img src="images/insta.png" height="40px" width="40px"alt="https://www.instagram.com/em.broid.her/"></a></p>
-           </P>
+        <div class="instatext"> 
+            <p><a href="https://www.instagram.com/em.broid.her/"><img src="images/insta.png" height="40px" width="40px"alt="https://www.instagram.com/em.broid.her/" class="instatext"></a>  Follow us on Instagram!</p></P>
+        </div>
         </div>
         <div class="container">
-            <form class="container" method="post" action="contactform.php"”>
-          
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name..">
-          
-              <label for="email">Email</label>
-              <input type="text" id="email" name="email" placeholder="Your email..">
-          
-              <label for="product">Product</label>
-              <select id="product" name="poduct">
-                <option value="gsshirt">Grey Sweatshirt</option>
-                <option value="tsshirt">Tie Dye Sweatshirt</option>
-                <option value="ssshirt">Short Sleeve Shirt</option>
-              </select>
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Tell me what you'd like.." style="height:200px"></textarea>
-          
-              Select a file to upload: <input type="file" name="selectedfile">
-        
-             <br><br> <input type="submit" value="Submit">
-              
+            <form action="contactform.php" method="POST" class="cform"> 
+                <div class="form">
+                    <label for="name" class="formlabel">Name</label>
+                    <input type="text" class="formcontrol" id="name" name="name" placeholder="Put your name here..." tabindex="1" required>
+                </div>
+                <div class="form">
+                    <label for="email" class="formlabel">Email</label>
+                    <input type="text" class="formcontrol" id="email" name="email" placeholder="Put your email here..." tabindex="2" required>
+                </div>
+                <div class="form">
+                    <label for="product" class="formlabel">Product</label>
+                    <select class="formcontrol" id="product" name="poduct" placeholder="" tabindex="3">
+                        <option value="gsshirt">Grey Sweatshirt</option>
+                        <option value="tsshirt">Tie Dye Sweatshirt</option>
+                        <option value="ssshirt">Short Sleeve Shirt</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <label for="message" class="formlabel">Message</label>
+                    <textarea class="formcontrol" rows="10" cols="40" id="message" name="message" placeholder="Write your message here..." tabindex="4"></textarea>
+                </div>
+                <div>
+                    Upload a file: <input type="file" class="filein" name="selectedfile" tabindex="5">
+                </div>
+                <br><div>
+                    <button type="submit" class="btn">Submit</button>
+                </div>
             </form>
-          </div>
+        </div>
     </section>
     <footer>
         © 2020 Embroid•Her
