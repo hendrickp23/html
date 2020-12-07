@@ -95,6 +95,10 @@ echo '</pre>';
     endif;
     ?>
     </section>
+    <footer>
+        © 2020 Embroid•Her
+       <p><a href="https://www.instagram.com/em.broid.her/"><img src="images/insta.png" height="20px" width="20px"alt="https://www.instagram.com/em.broid.her/"></a></p>
+    </footer>
 
 </body>
 </html>
